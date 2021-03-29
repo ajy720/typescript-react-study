@@ -4,6 +4,7 @@ import './App.css';
 import Greetings from './Greetings';
 import Counter from './Counter';
 import MyForm from './MyForm';
+import ReducerSample from './ReducerSample';
 
 const App = () => {
   const onClick = (name: string) => {
@@ -19,6 +20,7 @@ const App = () => {
       <Greetings name="Hello" onClick={onClick} />
       <Counter />
       <MyForm onSubmit={onSubmit}></MyForm>
+      <ReducerSample/>
     </Fragment>
 
   );
